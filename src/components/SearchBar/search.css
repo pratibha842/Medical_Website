@@ -1,0 +1,39 @@
+input {
+  width: 20rem;
+  height: 2rem;
+  border-color: black;
+}
+
+.search-container {
+    margin: 15px 0 0 37px;
+    /* width: 2rem; */
+  }
+
+button {
+  width: 5rem;
+  height: 2.43rem;
+  border-color: rgb(55, 54, 54);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:  rgb(80, 191, 154);
+}  
+
+.value_input {
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(108, 106, 106);
+}
+/* .search-container button {
+    height: 36px;
+    padding: 6px;
+    margin-top: 40px;
+    float: left;
+    background: rgb(80, 191, 154);
+    font-size: 17px;
+    color: white;
+    border-left: none;
+    cursor: pointer;
+  }*/
+ 

@@ -1,10 +1,7 @@
-.App{
+.product_container {
     width: auto;
-    background: #eee;
-    display: grid;
-}
-.App-container{
+    margin: 10px 20px 0 20px;
     display: grid;
     grid-template-columns: 1fr 5fr;
+    gap: 20px;
 }
-

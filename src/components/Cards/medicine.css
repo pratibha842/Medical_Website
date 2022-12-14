@@ -1,0 +1,78 @@
+.wrapper {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.medicine_container {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 2px 2px 0;
+}
+.medicine_cards {
+    background-color: white;
+    border-radius: 0.5rem;
+    
+}
+.product_img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 18rem;
+    height: 13rem;
+    object-fit: cover;
+}
+
+.medicine_body {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__price {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(112, 28, 28);
+}
+
+.price__offer {
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+    font-weight: bold;
+}
+
+
+.card__description {
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card__location{
+text-align: center;
+font-size: 0.9rem;
+font-weight: 500;
+color: gray;
+}
+
+.card__btn{
+border: none;
+
+font-family: inherit;
+width: 100%;
+color: rgb(49, 151, 151);
+background-color: transparent;
+font-weight: bold;
+}
+
